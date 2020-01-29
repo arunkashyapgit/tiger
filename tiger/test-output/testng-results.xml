@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135542" started-at="2020-01-29T08:35:03Z" finished-at="2020-01-29T08:37:19Z">
+    <groups>
+      <group name="smokeTest">
+        <method signature="TestCampaign.testCampaign()[pri:0, instance:test.TestCampaign@7f9a81e8]" name="testCampaign" class="test.TestCampaign"/>
+        <method signature="TestNewOrganizations.testNewOrganization()[pri:0, instance:test.TestNewOrganizations@51081592]" name="testNewOrganization" class="test.TestNewOrganizations"/>
+        <method signature="TestOrganizationWithEmailId.testNewOrganization()[pri:0, instance:test.TestOrganizationWithEmailId@9629756]" name="testNewOrganization" class="test.TestOrganizationWithEmailId"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="135542" started-at="2020-01-29T08:35:03Z" finished-at="2020-01-29T08:37:19Z">
+      <class name="test.TestCampaign">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TestCampaign@7f9a81e8]" name="openBrowser" is-config="true" duration-ms="6337" started-at="2020-01-29T14:06:14Z" finished-at="2020-01-29T14:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:test.TestCampaign@7f9a81e8]" name="loginToApp" is-config="true" duration-ms="3534" started-at="2020-01-29T14:06:21Z" finished-at="2020-01-29T14:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="testCampaign()[pri:0, instance:test.TestCampaign@7f9a81e8]" name="testCampaign" duration-ms="16764" started-at="2020-01-29T14:06:24Z" finished-at="2020-01-29T14:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCampaign -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test.TestCampaign@7f9a81e8]" name="closeApp" is-config="true" duration-ms="1983" started-at="2020-01-29T14:06:41Z" finished-at="2020-01-29T14:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestCampaign@7f9a81e8]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2020-01-29T14:06:43Z" finished-at="2020-01-29T14:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestCampaign -->
+      <class name="test.TestOrganizationWithEmailId">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TestOrganizationWithEmailId@9629756]" name="openBrowser" is-config="true" duration-ms="6235" started-at="2020-01-29T14:06:43Z" finished-at="2020-01-29T14:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:test.TestOrganizationWithEmailId@9629756]" name="loginToApp" is-config="true" duration-ms="2352" started-at="2020-01-29T14:06:49Z" finished-at="2020-01-29T14:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="testNewOrganization()[pri:0, instance:test.TestOrganizationWithEmailId@9629756]" name="testNewOrganization" duration-ms="24741" started-at="2020-01-29T14:06:52Z" finished-at="2020-01-29T14:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewOrganization -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test.TestOrganizationWithEmailId@9629756]" name="closeApp" is-config="true" duration-ms="2080" started-at="2020-01-29T14:07:16Z" finished-at="2020-01-29T14:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestOrganizationWithEmailId@9629756]" name="closeBrowser" is-config="true" duration-ms="36" started-at="2020-01-29T14:07:19Z" finished-at="2020-01-29T14:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestOrganizationWithEmailId -->
+      <class name="test.TestNewOrganizations">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TestNewOrganizations@51081592]" name="openBrowser" is-config="true" duration-ms="7176" started-at="2020-01-29T14:05:03Z" finished-at="2020-01-29T14:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:test.TestNewOrganizations@51081592]" name="loginToApp" is-config="true" duration-ms="8591" started-at="2020-01-29T14:05:10Z" finished-at="2020-01-29T14:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="testNewOrganization()[pri:0, instance:test.TestNewOrganizations@51081592]" name="testNewOrganization" duration-ms="52787" started-at="2020-01-29T14:05:19Z" finished-at="2020-01-29T14:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewOrganization -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test.TestNewOrganizations@51081592]" name="closeApp" is-config="true" duration-ms="2743" started-at="2020-01-29T14:06:12Z" finished-at="2020-01-29T14:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestNewOrganizations@51081592]" name="closeBrowser" is-config="true" duration-ms="80" started-at="2020-01-29T14:06:14Z" finished-at="2020-01-29T14:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestNewOrganizations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
